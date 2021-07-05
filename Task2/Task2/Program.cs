@@ -8,9 +8,11 @@ namespace Task2
         {
             string name;
 
+            Console.WriteLine("Задание 2.\nСоставить алгоритм: если введенное имя совпадает с Вячеслав, то вывести “Привет, Вячеслав”, если нет, то вывести \"Нет такого имени\"\n");
+
             while (true)
             {
-                Console.WriteLine("Введите имя или \"выход\" для завершения работы.");
+                Console.WriteLine("Введите имя. (Для завершения работы введите \"выход\")");
                 name = Console.ReadLine();
                 name = name.ToLower();
                 if (name == "вячеслав")

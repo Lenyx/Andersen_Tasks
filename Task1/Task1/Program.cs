@@ -6,26 +6,25 @@ namespace Task1
     {
         static void Main(string[] args)
         {
-            int number = 1;
+            int number;
+            string str = "";
 
-            while (number != 000)
+            Console.WriteLine("Задание 1.\nСоставить алгоритм: если введенное число больше 7, то вывести “Привет”\n");
+
+            while (true)
             {
-                Console.WriteLine("Введите любое число или число 000 для выхода:");
-                try
-                {
-                    number = Convert.ToInt32(Console.ReadLine());
-                }
-                catch
-                {
-                    Console.WriteLine("Вы ввели не число, попробуйте снова!");
-                }
-                finally
+                Console.WriteLine("Введите любое число. (для выхода введите \"exit\")");
+                str = Console.ReadLine();
+                str = str.ToLower();
+                if (Int32.TryParse(str, out number))
                 {
                     if (number > 7)
-                    {
-                        Console.WriteLine("Привет!");
-                    }
+                        Console.WriteLine("Привет");
                 }
+                else if (str == "exit")
+                    break;
+                else
+                    Console.WriteLine("Некорректный ввод, попробуйте снова!");
             }  
         }
     }

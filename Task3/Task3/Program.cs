@@ -10,6 +10,8 @@ namespace Task3
             string str;
             bool check = true;
 
+            Console.WriteLine("Задание 3.\nСоставить алгоритм: на входе есть числовой массив, необходимо вывести элементы массива кратные 3\n");
+
             while (check)
             {
                 
@@ -23,7 +25,7 @@ namespace Task3
                         Random rand = new Random();
                         int[] arr = new int[n];
                         Console.WriteLine("Отлично! Введите цифру одного из вариантов, представленных ниже:");
-                        Console.WriteLine("1. Заполнить массив случайными числами.\n2. Заполнить массив вручную.\n3. Для выхода введите \"0\".");
+                        Console.WriteLine("1. Заполнить массив случайными числами.\n2. Заполнить массив вручную.\n3. Выход.");
                         while (check)
                         {
                             str = Console.ReadLine();
@@ -65,7 +67,7 @@ namespace Task3
                                 Console.WriteLine("\n");
                                 break;
                             }
-                            else if (str == "0")
+                            else if (str == "3")
                             {
                                 check = false;
                                 break;
@@ -90,7 +92,7 @@ namespace Task3
                         }
                     }
                     else
-                        Console.WriteLine("Размер массива не может быть отрицательным числом!");
+                        Console.WriteLine("Размер массива не может быть меньше 1!");
                 }
                 else
                     Console.WriteLine("Вы ввели не целое число, попробуйте снова!");

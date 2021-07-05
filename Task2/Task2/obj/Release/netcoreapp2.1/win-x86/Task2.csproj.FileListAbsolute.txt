@@ -1,0 +1,15 @@
+C:\Users\Vlad\source\repos\Task2\Task2\bin\Release\netcoreapp2.1\win-x86\hostpolicy.dll
+C:\Users\Vlad\source\repos\Task2\Task2\bin\Release\netcoreapp2.1\win-x86\hostfxr.dll
+C:\Users\Vlad\source\repos\Task2\Task2\bin\Release\netcoreapp2.1\win-x86\Task2.exe
+C:\Users\Vlad\source\repos\Task2\Task2\bin\Release\netcoreapp2.1\win-x86\Task2.deps.json
+C:\Users\Vlad\source\repos\Task2\Task2\bin\Release\netcoreapp2.1\win-x86\Task2.runtimeconfig.json
+C:\Users\Vlad\source\repos\Task2\Task2\bin\Release\netcoreapp2.1\win-x86\Task2.runtimeconfig.dev.json
+C:\Users\Vlad\source\repos\Task2\Task2\bin\Release\netcoreapp2.1\win-x86\Task2.dll
+C:\Users\Vlad\source\repos\Task2\Task2\bin\Release\netcoreapp2.1\win-x86\Task2.pdb
+C:\Users\Vlad\source\repos\Task2\Task2\obj\Release\netcoreapp2.1\win-x86\Task2.csproj.AssemblyReference.cache
+C:\Users\Vlad\source\repos\Task2\Task2\obj\Release\netcoreapp2.1\win-x86\Task2.AssemblyInfoInputs.cache
+C:\Users\Vlad\source\repos\Task2\Task2\obj\Release\netcoreapp2.1\win-x86\Task2.AssemblyInfo.cs
+C:\Users\Vlad\source\repos\Task2\Task2\obj\Release\netcoreapp2.1\win-x86\Task2.csproj.CoreCompileInputs.cache
+C:\Users\Vlad\source\repos\Task2\Task2\obj\Release\netcoreapp2.1\win-x86\Task2.dll
+C:\Users\Vlad\source\repos\Task2\Task2\obj\Release\netcoreapp2.1\win-x86\Task2.pdb
+C:\Users\Vlad\source\repos\Task2\Task2\obj\Release\netcoreapp2.1\win-x86\Task2.genruntimeconfig.cache
